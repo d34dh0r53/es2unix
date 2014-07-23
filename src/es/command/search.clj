@@ -3,7 +3,7 @@
             [es.util :refer [substr]]))
 
 (def max-width
-  20)
+  500)
 
 (defn search [http args opts]
   (let [[q & fields] args
